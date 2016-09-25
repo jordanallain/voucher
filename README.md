@@ -2,6 +2,13 @@ Jordan Allain's Capstone Project
 
 Front End
 
+## Wireframes
+
+https://wireframe.cc/RuuDHI Landing Page
+
+https://wireframe.cc/C0moej User Profile
+
+https://wireframe.cc/Bp6b6L Search Users Results
 
 ## [License](LICENSE)
 
