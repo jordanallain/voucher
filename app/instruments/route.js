@@ -4,4 +4,9 @@ export default Ember.Route.extend({
   model () {
     return this.get('store').findAll('instrument');
   },
+  actions: {
+    addInstrument () {
+      console.log("addInstrument invoked!");
+    }
+  },
 });

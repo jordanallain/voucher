@@ -1,9 +1,7 @@
 <h2>Instruments</h2>
 
-<ul>
 {{#each model as |instrument|}}
-  <li>{{instrument.name}}</li>
-  <li>{{instrument.genre}}</li>
+  <h3{{action 'addInstrument'}}>{{instrument.name}}</h3>
+  <h4>{{instrument.genre}}</h4>
   {{!-- <li>{{instrument.users}}</li> --}}
 {{/each}}
-</ul>
