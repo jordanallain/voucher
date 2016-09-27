@@ -1,0 +1,8 @@
+<h2>User's Instruments</h2>
+
+<ul>
+{{#each model as |userInstrument|}}
+  <li>{{userInstrument.instrument.name}}</li>
+  <li>{{userInstrument.instrument.genre}}</li>
+{{/each}}
+</ul>
