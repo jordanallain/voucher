@@ -8,7 +8,6 @@ export default Ember.Route.extend({
     addUserInstrument (params) {
       // createRecord
       // console.log("addUserInstrument invoked!");
-      debugger;
       this.get('store').createRecord('user-instrument', params.user.id);
       // debugger;
     }
