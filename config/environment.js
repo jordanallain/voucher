@@ -41,7 +41,9 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.baseURL = '/';
+    ENV.locationType = 'hash';
+    ENV.apiHost = 'https://rocky-falls-32123.herokuapp.com/';
   }
 
   return ENV;
