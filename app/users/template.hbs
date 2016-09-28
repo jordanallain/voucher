@@ -2,8 +2,9 @@
 
 <ul>
 {{#each model as |user|}}
-  <li>{{user.email}}</li>
-  <li>{{user.bio}}</li>
-  <li>{{user.instruments}}</li>
+  <li>Email: {{user.email}}</li>
+  <li>Bio: {{user.bio}}</li>
+  <hr>
+  {{!-- <li>{{user.instruments}}</li> --}}
 {{/each}}
 </ul>
