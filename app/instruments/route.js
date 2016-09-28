@@ -5,10 +5,11 @@ export default Ember.Route.extend({
     return this.get('store').findAll('instrument');
   },
   actions: {
-    addUserInstrument (params) {
+    addUserInstrument (instrument) {
       // createRecord
-      // console.log("addUserInstrument invoked!");
-      this.get('store').createRecord('user-instrument', params.user.id);
+      // instrument.createRecord('user_instrument');
+      console.log(instrument);
+      // this.get('store').createRecord('user-instrument', params.user.id);
       // debugger;
     }
   },
