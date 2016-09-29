@@ -6,11 +6,8 @@ export default Ember.Route.extend({
   },
   actions: {
     addUserInstrument (instrument) {
-      // createRecord
-      // instrument.createRecord('user_instrument');
-      console.log(instrument);
-      // this.get('store').createRecord('user-instrument', params.user.id);
-      // debugger;
+      let newInstrument = this.get('store').createRecord('user-instrument', instrument);
+      newInstrument.save();
     }
   },
 });
