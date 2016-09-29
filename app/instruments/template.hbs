@@ -1,7 +1,5 @@
 <h2>Instruments</h2>
 
 {{#each model as |instrument|}}
-  <h3 data-id="{{instrument.id}}" {{action 'addUserInstrument'}}>{{instrument.name}}</h3>
-  <h4>{{instrument.genre}}</h4>
-  <h5>{{instrument.id}}</h5>
+  {{display-instrument instrument=instrument addUserInstrument='addUserInstrument'}}
 {{/each}}

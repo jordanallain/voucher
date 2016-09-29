@@ -1,0 +1,12 @@
+<h3>Name: {{userInstrument.instrument.name}}</h3>
+<h4>Type: {{userInstrument.instrument.genre}}</h4>
+<h5>Styles: {{userInstrument.styles}}</h5>
+
+<form {{action "updateStyles" on="submit"}} >
+  {{input value=userInstrument.styles placeholder="Update your styles" type="text" cols=25 rows=10}}
+</form>
+
+<button {{action 'deleteInstrument'}} class="btn-xs btn-danger">Delete</button>
+
+{{!-- <button {{action 'updateStyles'}} class="btn-xs">Update Styles</button> --}}
+<hr>
