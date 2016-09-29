@@ -12,6 +12,8 @@ Router.map(function () {
   this.route('users');
   this.route('instruments');
   this.route('user_instruments');
+  this.route('bio-edit');
+  this.route('user/bio', {path: 'users/:user_id/bio-edit'});
   // this.route('instrument', {path: '/user_instruments'});
 });
 
