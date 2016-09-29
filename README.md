@@ -1,4 +1,4 @@
-Jordan Allain's Capstone Project
+Voucher Project
 
 Front End
 
