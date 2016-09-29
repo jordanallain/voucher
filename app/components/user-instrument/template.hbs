@@ -2,7 +2,7 @@
 <h4>Type: {{userInstrument.instrument.genre}}</h4>
 <h5>Styles: {{userInstrument.styles}}</h5>
 
-<form id="styles" {{action "updateStyles" on="submit"}} >
+<form {{action "updateStyles" on="submit"}} >
   {{input value=userInstrument.styles placeholder="Update your styles" type="text" cols=25 rows=10}}
 </form>
 
