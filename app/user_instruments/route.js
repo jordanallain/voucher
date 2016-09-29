@@ -8,5 +8,8 @@ export default Ember.Route.extend({
     deleteInstrument(userInstrument){
       userInstrument.destroyRecord();
     },
+    updateStyles(userInstrument){
+      userInstrument.save();
+    },
   },
 });
