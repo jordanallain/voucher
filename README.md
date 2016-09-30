@@ -1,6 +1,36 @@
-Voucher Project
+# Voucher
 
-Front End
+Voucher is currently an app that lets you choose from a list of instruments to add to your personal list of instruments. Coming soon will be the ability to endorse or vouch for another person's ability to play each individual instrument. Stay tuned!
+
+## Motivation
+
+I wanted to make this app because I think the endorsement system of linked in is really cool and there isn't really a good social media site for musicians. In theory I would eventually like users to be able to search for other users by instrument and location so that you could find someone nearby and know what kind of instruments they play and how many people have endorsed them for that instrument.
+
+## Technologies
+
+For the front end I used HTML, CSS, and Javascript. I also used Ember as a framework to help with building the app.
+
+I wrote the back end with Ruby and used Rails as a framework. For a database I used PostgreSQL.
+
+## Deployed Front End
+
+https://jordanallain.github.io/voucher
+
+## Back End Repo
+
+https://github.com/jordanallain/voucher-backend
+
+## Deployed Back End
+
+https://rocky-falls-32123.herokuapp.com/
+
+## User Stories
+
+- As a user I want a musician specific social media site
+- As a user I want to be able to list the instruments I play
+- As a user I want to be able to look for other users
+- As an admin I want users to only be able to +1 other users' instrumental abilities
+- As an admin I want users to be able to search for other users by whichever field they would like
 
 ## Wireframes
 
@@ -9,6 +39,14 @@ https://wireframe.cc/RuuDHI Landing Page
 https://wireframe.cc/C0moej User Profile
 
 https://wireframe.cc/Bp6b6L Search Users Results
+
+## ERD
+
+In my app I will have a users table for anyone that signs up. I will also have a table of instruments. Users and Instruments will have a many to many relationship so that each user can choose the same instrument to display in the list of ones that they play.
+
+## Problems
+
+Working with
 
 ## [License](LICENSE)
 
