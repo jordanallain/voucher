@@ -6,6 +6,16 @@ Voucher is currently an app that lets you choose from a list of instruments to a
 
 I wanted to make this app because I think the endorsement system of linked in is really cool and there isn't really a good social media site for musicians. In theory I would eventually like users to be able to search for other users by instrument and location so that you could find someone nearby and know what kind of instruments they play and how many people have endorsed them for that instrument.
 
+## Dependencies
+
+Enter
+
+```sh
+npm install && bower install
+```
+
+from the terminal to install dependencies
+
 ## Image of App
 
 <img src="./app/styles/screenshot.png">
