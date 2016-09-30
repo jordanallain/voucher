@@ -46,7 +46,7 @@ In my app I will have a users table for anyone that signs up. I will also have a
 
 ## Problems
 
-Working with
+Working with Ember proved to be extremely difficult but it was awesome to be able to feel some of its power as I became more familiar with it. If I were to approach another Ember app I would start with breaking things down into the smallest components they could be so I could reuse them if I wanted to. I started out without using components and it was more difficult to break things down after they were structured than if I had just started out using components to begin with.
 
 ## [License](LICENSE)
 
