@@ -5,19 +5,18 @@
     <div class="collapse navbar-collapse" id="navigation">
       <ul class="nav navbar-nav">
         {{#if isAuthenticated}}
-        <li>{{#link-to "users"}}Users{{/link-to}}</li>
-        {{!-- <li>{{#link-to "bio-edit"}}Edit Your Bio{{/link-to}}</li> --}}
+        <li class="nav-a">{{#link-to "users"}}Users{{/link-to}}</li>
         {{/if}}
       </ul>
       <ul class="nav navbar-nav navbar-right">
         {{#if isAuthenticated}}
-        <li>{{#link-to "user_instruments"}}My Instruments{{/link-to}}</li>
-        <li>{{#link-to "instruments"}}Instruments{{/link-to}}</li>
-        <li>{{#link-to "change-password"}}Change Password{{/link-to}}</li>
-        <li><a href="#" {{action "signOut"}}>Sign Out</a></li>
+        <li class="nav-a">{{#link-to "user_instruments"}}My Instruments{{/link-to}}</li>
+        <li class="nav-a">{{#link-to "instruments"}}Instruments{{/link-to}}</li>
+        <li class="nav-a">{{#link-to "change-password"}}Change Password{{/link-to}}</li>
+        <li class="nav-a"><a href="#" {{action "signOut"}}>Sign Out</a></li>
         {{else}}
-        <li>{{#link-to "sign-up"}}Sign Up{{/link-to}}</li>
-        <li>{{#link-to "sign-in"}}Sign In{{/link-to}}</li>
+        <li class="nav-a">{{#link-to "sign-up"}}Sign Up{{/link-to}}</li>
+        <li class="nav-a">{{#link-to "sign-in"}}Sign In{{/link-to}}</li>
         {{/if}}
       </ul>
     </div>
