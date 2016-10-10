@@ -1,22 +1,53 @@
 @import 'bootstrap';
 @import 'bootstrap/theme';
 
+html {
+  height: 100%;
+  overflow: auto;
+}
+
 h1 {
   text-align: center;
+  font-family: 'Skranji', cursive;
+  color: #fafafa;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar-default {
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-left: 20px;
+}
+
+.navbar-brand:hover {
+  background-color: #d1ffd8;
 }
 
 body {
   font-family: sans-serif;
   margin: 0 auto;
+  font-family: 'Quicksand', sans-serif;
   text-align: center;
+  background: linear-gradient(90deg, #3c9bd5, #87c6ec) no-repeat;
+}
+
+.nav-a {
+  color: #000;
 }
 
 .nav-a:hover {
   background-color: #d1ffd8;
 }
 
-.navbar-brand:hover {
-  font-size: 1.5em;
+.navbar-collapse {
+  width: 100%;
+  border: 0;
 }
 
 .ember-text-field {
@@ -27,13 +58,3 @@ body {
 li {
   list-style: none;
 }
-
-// nav {
-//   width: 100%;
-//   background-color: red;
-// }
-//
-// #navigation {
-//   width: 100%;
-//   background-color: red;
-// }
