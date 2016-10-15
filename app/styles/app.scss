@@ -5,6 +5,27 @@ html {
   height: 100%;
 }
 
+.username {
+  font-size: 3rem;
+}
+
+.instrument-list {
+  font-size: 2rem;
+}
+
+.usernames:hover {
+  text-decoration: none;
+}
+
+.usernames {
+  list-style: none;
+  text-decoration: none;
+  line-height: 3rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+}
+
 h1 {
   text-align: center;
   font-family: 'Skranji', cursive;
