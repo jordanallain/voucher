@@ -8,7 +8,7 @@ html {
 h1 {
   text-align: center;
   font-family: 'Skranji', cursive;
-  color: #fafafa;
+  color: #ffcb18;
 }
 
 .container-fluid {
@@ -48,6 +48,8 @@ body {
 .navbar-collapse {
   width: 100%;
   border: 0;
+  background-color: #ffcb18;
+  font-weight: bold;
 }
 
 .ember-text-field {
